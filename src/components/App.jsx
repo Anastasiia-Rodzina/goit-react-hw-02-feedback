@@ -13,9 +13,7 @@ export class App extends Component {
 
 renderFeedback = option => {
   this.setState((prevState) => ({
-  
-      [option]: prevState[option] + 1,
-
+   [option]: prevState[option] + 1,
 }));
 };
 
