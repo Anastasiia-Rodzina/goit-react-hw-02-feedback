@@ -4,8 +4,6 @@ import Statistics from "./Statistics/Statistics";
 import Section from "./Section/Section";
 import Notification from "./Notification/Notification";
 
-
-
 export const App = () => {
   
   const [feedback, setFeedback] = useState({
@@ -61,6 +59,4 @@ positivePercentage={percentage}/>
 </Section>
 </>
     )
-  
 }
-
