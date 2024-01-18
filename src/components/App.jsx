@@ -33,6 +33,7 @@ countPositiveFeedbackPercentage = () => {
     const { good, neutral, bad } = this.state;
     const total = this.countTotalFeedback();
     const percentage = this.countPositiveFeedbackPercentage();
+    
     return (
     <>
 <Section title="Please leave feedback">
